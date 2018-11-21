@@ -39,4 +39,27 @@ Year to date Median price 2006 was +$187,500.00, the median price 2007 was +$215
 Reference The Commerical Record, March 30, 2007.
 The Cost Approach provides strong support for final value within this report.
 
+WVVB Check Master Ledger "Pay Master"
+
+CryptoCurrency/Properties   BitBytes                                  0000001.0
+
+World Vision Virtual Bank
+worldvisionvirtualbank@mail.com                               __6/05/2017__ Date
+
+ACCTPay to the
+ order of___Mill Pond Village____________________________________!/ $_0975.00___
+Nine Hundred Seventy Five****___________________________________________BitBytes
+Store of Unit Value
+
+World Vision Virtual Bank
+WVVB
+BitBytes
+
+For_Rent June Apt. H14________________          __Michael E. Giannuzzi____________
+
+https://github.com/Sherlock1x/ProjectBlueberries
+
+END:
+
+
 
