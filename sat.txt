@@ -35,3 +35,52 @@ There was no comparables to the SUBJECT property in this appraisal valuation at 
 Year to date Median price 2006 was +$187,500.00, the median price 2007 was +$215,500.00, which is a 15% increase for the town of Windsor Locks, CT 06096.
 Reference The Commerical Record, March 30, 2007.
 The Cost Approach provides strong support for final value within this report.
+
+C++ Code //Variables
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    string  characterName = "John";
+    int characterAge;
+    characterAge = 35;
+    cout << "There was once a man named" << characterName << endl;
+    cout << "He was" << characterAge << "years old" << endl;
+    cout << "He liked the name" << characterName << endl;
+    cout << "But he did not like" << characterAge << endl;
+
+    return 0;
+}
+
+20181207
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int a;
+    int b;
+    int sum;
+
+    cout << "Enter a Number User! \n";
+    cin >> a;
+
+    cout << "Enter another Number! \n";
+    cin >> b;
+
+    sum = a + b;
+    cout << "the sum of those numbers is" << sum << endl;
+
+
+    return 0;
+}
+
+20181207
+
