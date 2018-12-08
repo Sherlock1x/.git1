@@ -36,7 +36,7 @@ Year to date Median price 2006 was +$187,500.00, the median price 2007 was +$215
 Reference The Commerical Record, March 30, 2007.
 The Cost Approach provides strong support for final value within this report.
 
-C++ Code //Variables
+C++ Code //Variables  http://www.cplusplus.com/doc/tutorial/     
 
 #include <iostream>
 
@@ -57,6 +57,8 @@ int main()
 }
 
 20181207
+
+https://www.youtube.com/watch?v=mUQZ1qmKlLY&t=70s
 
 #include <iostream>
 
