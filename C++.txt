@@ -1,0 +1,43 @@
+
+
+https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html
+
+/* References vs. Pointers (TestReferenceVsPointer.cpp) */
+#include <iostream>
+using namespace std;
+ 
+int main() {
+   int number1 = 88, number2 = 22;
+ 
+   // Create a pointer pointing to number1
+   int * pNumber1 = &number1;  // Explicit referencing
+   *pNumber1 = 99;             // Explicit dereferencing
+   cout << *pNumber1 << endl;  // 99
+   cout << &number1 << endl;   // 0x22ff18
+   cout << pNumber1 << endl;   // 0x22ff18 (content of the pointer variable - same as above)
+   cout << &pNumber1 << endl;  // 0x22ff10 (address of the pointer variable)
+   pNumber1 = &number2;        // Pointer can be reassigned to store another address
+ 
+   // Create a reference (alias) to number1
+   int & refNumber1 = number1;  // Implicit referencing (NOT &number1)
+   refNumber1 = 11;             // Implicit dereferencing (NOT *refNumber1)
+   cout << refNumber1 << endl;  // 11
+   cout << &number1 << endl;    // 0x22ff18
+   cout << &refNumber1 << endl; // 0x22ff18
+   //refNumber1 = &number2;     // Error! Reference cannot be re-assigned
+                                // error: invalid conversion from 'int*' to 'int'
+   refNumber1 = number2;        // refNumber1 is still an alias to number1.
+                                // Assign value of number2 (22) to refNumber1 (and number1).
+   number2++;   
+   cout << refNumber1 << endl;  // 22
+   cout << number1 << endl;     // 22
+   cout << number2 << endl;     // 23
+}
+A reference variable provides a new name to an existing variable. It is dereferenced implicitly and does not need the dereferencing operator * to retrieve the value referenced. On the other hand, a pointer variable stores an address. You can change the address value stored in a pointer. To retrieve the value pointed to by a pointer, you need to use the indirection operator *, which is known as explicit dereferencing. Reference can be treated as a const pointer. It has to be initialized during declaration, and its content cannot be changed.
+
+Reference is closely related to pointer. In many cases, it can be used as an alternative to pointer. A reference allows you to manipulate an object using pointer, but without the pointer syntax of referencing and dereferencing.
+
+The above example illustrates how reference works, but does not show its typical usage, which is used as the function formal parameter for pass-by-reference.
+
+2.4  Pass-By-Reference into Functions with Reference Arguments vs. Pointer Argument
+
